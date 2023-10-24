@@ -1,0 +1,66 @@
+{
+    "contractName": "Raffle",
+    "abi": [],
+    "metadata": "{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/home/madhav/smart-contract_lottery/src/Raffle.sol\":\"Raffle\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/madhav/smart-contract_lottery/src/Raffle.sol\":{\"keccak256\":\"0x2d372e41965924da27b15bd4fdb337b1df23458763cac59e360bf4d90e1425bf\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://6224a28032ed0485c02aaf2ea10c2efcfbef6f01991fd3310fd50f69f77e6831\",\"dweb:/ipfs/QmRb1BGoagwomJbhjTwp8QTw2qw9c5h5BifExmg8hDXUxa\"]}},\"version\":1}",
+    "bytecode": "6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220b4cd810f58d6bed7874d9e47984e70ad90b2801a056e487cd13cf760f977fe2164736f6c63430008130033",
+    "deployedBytecode": "6080604052600080fdfea2646970667358221220b4cd810f58d6bed7874d9e47984e70ad90b2801a056e487cd13cf760f977fe2164736f6c63430008130033",
+    "sourceMap": "732:80:0:-:0;;;;;;;;;;;;;;;;;;;",
+    "deployedSourceMap": "732:80:0:-:0;;;;;",
+    "sourcePath": "/home/madhav/smart-contract_lottery/src/Raffle.sol",
+    "compiler": {
+        "name": "solc",
+        "version": "0.8.19+commit.7dd6d404"
+    },
+    "ast": {
+        "absolutePath": "/home/madhav/smart-contract_lottery/src/Raffle.sol",
+        "exportedSymbols": {
+            "Raffle": [
+                2
+            ]
+        },
+        "id": 3,
+        "license": "MIT",
+        "nodeType": "SourceUnit",
+        "nodes": [
+            {
+                "id": 1,
+                "literals": [
+                    "solidity",
+                    "^",
+                    "0.8",
+                    ".19"
+                ],
+                "nodeType": "PragmaDirective",
+                "src": "376:24:0"
+            },
+            {
+                "abstract": false,
+                "baseContracts": [],
+                "canonicalName": "Raffle",
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "fullyImplemented": true,
+                "id": 2,
+                "linearizedBaseContracts": [
+                    2
+                ],
+                "name": "Raffle",
+                "nameLocation": "741:6:0",
+                "nodeType": "ContractDefinition",
+                "nodes": [],
+                "scope": 3,
+                "src": "732:80:0",
+                "usedErrors": []
+            }
+        ],
+        "src": "376:436:0"
+    },
+    "functionHashes": {},
+    "gasEstimates": {
+        "creation": {
+            "codeDepositCost": "12600",
+            "executionCost": "66",
+            "totalCost": "12666"
+        }
+    }
+}
